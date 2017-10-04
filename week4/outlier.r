@@ -18,6 +18,8 @@ wpolo <- athletes[athletes$Sport=="w_polo" & athletes$Sex=="0",]
 
 print(summary(wpolo))
 
+b_ball <- athletes[athlete$Sport=="b_ball" & athlete$Sex=="1" & athlete$Wt>"75",]
+
 
 
 
